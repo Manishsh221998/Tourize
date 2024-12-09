@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tourize</title>
+  <!-- CSS link -->
+  <!-- <link rel="stylesheet" href="/style.css"> -->
+  <link rel="stylesheet" href="/project/style.css">
+  <!-- CDN js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <!-- Link Swiper's CSS for banner-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Link Swiper's CSS for services
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+</head>
+
+<body>
+  <header class="header" id="header">
+    <!------------------Start of navbar1------------- -->
+    <nav class="navbar1" id="home">
+      <div class="email">
+        <div class="mail-icon"><i class="fa-solid fa-paper-plane"></i>
+        </div>
+        <div class="navbar1-details">
+          <h5>Email:</h5><span><a href="" style="text-decoration: none; color: greenyellow;">info@touriz.com</a><span
+              id="vl1"></span>
+        </div>
+      </div>
+      <div class="offer"><span id="offerr">50% Off </span>On Your Next Trip. Hurry Up For Your New Tour! <a href="">
+          Book Your Tour</a>
+      </div>
+      <div class="icon">
+        <span id="vl2"></span>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </nav>
+    <!------------------end of navbar1------------- -->
+
+    <!------------------Start of navbar2------------- -->
+    <nav class="navbar2">
+      <div class="logo">
+        <a href=""><img src="./logo/tourize-logo-zip-file-2/tourize-high-resolution-logo-transparent.png" alt=""></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home" style="color: chocolate;">Home</a></li>
+          <li id="off-hover">
+            <div class="dropdown">
+              <button class="dropbtn">
+                <a href="#destinations">Destinations</a><i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <a href="#Arunachal-Pradesh">Arunachal Pradesh</a>
+                <hr>
+                <a href="#Assam">Assam</a>
+                <hr>
+                <a href="#Meghalaya">Meghalaya</a>
+                <hr>
+                <a href="#Manipur">Manipur</a>
+                <hr>
+                <a href="#Mizoram">Mizoram</a>
+                <hr>
+                <a href="#Nagaland">Nagaland </a>
+                <hr>
+                <a href="#Tripura">Tripura </a>
+                <hr>
+              </div>
+            </div>
+          </li>
+          <li><a href="#tour-package">Tour Package</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about-us">About us</a></li>
+          <li><a href="#review">Review</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="submit">
+        <button type="submit">BOOK NOW</button>
+      </div>
+    </nav>
+    <!------------------end of navbar2------------- -->
+
+    <!------------------start of banner------------- -->
+    <section class="banner" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="banner-img">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="banner-img-background">
+                    <img src="./img/img-banner/1. White Green Abstract Brush Holiday Pack Promotion Banner - Copy.jpg"
+                      alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="banner-img-background">
+                    <img src="./img/img-banner/2. Cream Simple Minimal Travel YouTube Banner.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="banner-img-background">
+                    <img src="./img/img-banner/3. White Orange Simple Travel Adventure Banner (Landscape).jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="banner-img-background">
+                    <img src="./img/img-banner/Black and Orange India Travel Vlog YouTube Thumbnail.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="banner-img-background">
+                    <img src="./img/img-banner/5. Blue and Green Photocentric Travel YouTube Thumbnail.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="banner-img-background">
+                    <img src="./img/img-banner/6. Explore India Culture Dance Styles Youtube Thumbnail.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------end of banner------------- -->
+
+    <!------------------start of destinations------------- -->
+    <section class="destinations" id="destinations">
+      <div class="container">
+        <div class="row">
+          <div class="serv-part2">
+            <div class="destination-heading">
+              <h1>Our Popular Destinations <i class="fa-solid fa-location-dot"></i></h1><br>
+              <p><b style="color: rgb(252, 36, 12);">The Tourize</b> <span>offer the best tours and travel experiences
+                  in north east india. Explore the
+                  stunning landscape and rich diversity with our best selling packages.</span></p>
+            </div>
+            <div class="serv-card-layout">
+              <div class="serv-card" id="Arunachal-Pradesh">
+                <div class="card-img">
+                  <img src="./img/img-destinations/Arunachal Pradesh-Tawang_Monastery_(Tibetan_Buddhist).jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Arunachal Pradesh
+                    <hr>
+                  </h3>
+                  <p style="color: black;font-size: larger;">A treasure trove of heritage</p>
+                  <p>Arunachal Pradesh has many notable spots that bear testimony to its rich heritage. One such
+                    landmark is the magnificent Tawang Monastery which is 113 feet long and 80 feet wide. Built in 17th
+                    century. </p>
+                </div>
+              </div>
+              <div class="serv-card" id="Assam">
+                <div class="card-img">
+                  <img src="./img/img-destinations/assam-rhyno.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Assam
+                    <hr>
+                  </h3>
+                  <p style="color: black;font-size: larger;">Picturesque landscapes</p>
+                  <p>Assam is surrounded by hills, major rivers such as Brahmaputra & Barak and its tributaries, thick
+                    forest, tea gardens which enhances the scenic beauty of Assam. Infact the mighty Brahmaputra river
+                    of Assam is the only male river in the country.</p>
+                </div>
+                <!-- <div><button type="submit">Read more</button></div> -->
+              </div>
+              <div class="serv-card">
+                <div class="card-img" id="Meghalaya">
+                  <img src="./img/img-destinations/Meghalaya-Dawki,lake.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Meghalaya
+                    <hr>
+                  </h3>
+                  <p style="color: black;font-size: larger;">Get lost in the magic of Lakes</p>
+                  <p>Beautifully nestled amidst the lush and verdant sub-tropical and sub-alpine climate, Nagaland
+                    treasures an overabundance of wild flora and fauna and even some medicinal plants. </p>
+                </div>
+                <!-- <div><button type="submit">Read more</button></div> -->
+              </div>
+            </div>
+            <!-- <div class="serv-part2"> -->
+            <div class="serv-card-layout">
+              <div class="serv-card" id="Manipur">
+                <div class="card-img">
+                  <img
+                    src="./img/img-destinations/Manipur-Photograph_of_Dzukou_Valley_in_Manipur-Nagaland_border_by_Saurabh_Sawant.jpg"
+                    alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Manipur
+                    <hr>
+                  </h3>
+                  <p style="color: black;font-size: larger;">he Jewel of North East</p>
+                  <p>Travel to Manipur and enjoy the mesmerizing beauty of its majestic mountains, picturesque valleys
+                    and colorful celebrations. Imphal is the capital city of this.
+                  </p>
+                </div>
+                <!-- <div><button type="submit">Read more</button></div> -->
+              </div>
+              <div class="serv-card" id="Mizoram">
+                <div class="card-img">
+                  <img src="./img/img-destinations/Nagalan-Doyang_Lake_House.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Mizoram
+                    <hr>
+                  </h3>
+                  <p style="color: black;font-size: larger;">Nature lover's paradise</p>
+                  <p>Assam is surrounded by hills, major rivers such as Brahmaputra & Barak and its tributaries, thick
+                    forest, tea gardens which enhances the scenic beauty of Assam. Infact the mighty Brahmaputra river
+                    of Assam is the only male river in the country.</p>
+                </div>
+              </div>
+              <div class="serv-card">
+                <div class="card-img" id="Nagaland">
+                  <img src="./img/img-destinations/Tripura-Unakoti.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Nagaland & Tripura
+                    <hr>
+                  </h3>
+                  <p style="color: black;font-size: larger;">Destination for all the adventure</p>
+                  <p>Craving the flavors of Desilicious but can't make it to our restaurant? No problem! With our
+                    pan-city delivery service, you can enjoy our dishes from the comfort of your own home or office.
+                    Experience the pan-city delivery with Desilicious and elevate your dining experience without leaving
+                    your own space.</p>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+    </section>
+    <!------------------end of destinations------------- -->
+  </header>
+  <main class="main" id="main">
+    <!-- /* ----------------Start of Tourpackage------------- */ -->
+    <section class="tour-package">
+      <div class="container">
+        <div class="row">
+          <div class="tour-package-heading" id="tour-package">
+            <h1><i class="fa-solid fa-hand-holding-heart"></i> Trending Packages
+            </h1>
+            <h4>Exclusive North East Holiday packages
+            </h4>
+          </div>
+          <div class="tourpackage">
+            <div class="tourpackage-layout">
+              <div class="tourpackage-card">
+                <div class="day">
+                  <p>6 DAYS/5 NIGHTS</p>
+                </div>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> ARUNACHAL-P</div>
+                <div class="img">
+                  <img src="./img/img-destinations/Arunachal Pradesh-Sakyamuni_Buddha.jpg" alt="">
+                </div>
+                <div class="content">
+                  <h2>Arunachal Pradesh-Package
+                  </h2>
+                  <p class="subheading">Tawang Monastery-Sela-Dirang Valley</p>
+                  <hr>
+                </div>
+                <div class="price-booking">
+                  <div class="price">
+                    <p>Starting Form:
+                    </p>
+                    <h2>₹ 25,500 <s id="cut">₹ 35,500</s>
+                    </h2>
+                    <p class="small">Per Person</p>
+                  </div>
+                  <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                </div>
+              </div>
+              <div class="tourpackage-card">
+                <div class="day">
+                  <p>7 DAYS/6 NIGHTS</p>
+                </div>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> ASSAM</div>
+                <div class="img">
+                  <img src="./img/img-destinations/assam-tea-garden.jpg" alt="">
+                </div>
+                <div class="content">
+                  <h2>Assam- Tour package
+                  </h2>
+                  <p class="subheading">Kaziranga National Park-Tezpur-Dibrugarh</p>
+                  <hr>
+                </div>
+                <div class="price-booking">
+                  <div class="price">
+                    <p>Starting Form:
+                    </p>
+                    <h2>₹ 30,500 <s id="cut">₹ 45,500</s>
+                    </h2>
+                    <p class="small">Per Person</p>
+                  </div>
+                  <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                </div>
+              </div>
+              <div class="tourpackage-card">
+                <div class="day">
+                  <p>5 DAYS/4 NIGHTS</p>
+                </div>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> MEGHALAYA</div>
+                <div class="img">
+                  <img src="./img/img-destinations/Meghalaya-Living root bridges, Nongriat village.jpg" alt="">
+                </div>
+                <div class="content">
+                  <h2>Meghalaya- Tour package
+                  </h2>
+                  <p class="subheading">Cherrapunji-Shillong-Siju Cave-Dawki</p>
+                  <hr>
+                </div>
+                <div class="price-booking">
+                  <div class="price">
+                    <p>Starting Form:
+                    </p>
+                    <h2>₹ 31,500 <s id="cut">₹ 41,500</s>
+                    </h2>
+                    <p class="small">Per Person</p>
+                  </div>
+                  <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tourpackage">
+            <div class="tourpackage-layout">
+              <div class="tourpackage-card">
+                <div class="day">
+                  <p>6 DAYS/4 NIGHTS</p>
+                </div>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> MANIPUR</div>
+                <div class="img">
+                  <img src="./img/img-destinations/Manipur-DZUKOU VALLEY CAMPING.jpg" alt="">
+                </div>
+                <div class="content">
+                  <h2>Manipur- Tour package
+                  </h2>
+                  <p class="subheading">Loktak Lake-Tharon Cave-Sendra Island</p>
+                  <hr>
+                </div>
+                <div class="price-booking">
+                  <div class="price">
+                    <p>Starting Form:
+                    </p>
+                    <h2>₹ 29,500 <s id="cut">₹ 39,500</s>
+                    </h2>
+                    <p class="small">Per Person</p>
+                  </div>
+                  <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                </div>
+              </div>
+              <div class="tourpackage-card">
+                <div class="day">
+                  <p>3 DAYS/2 NIGHTS</p>
+                </div>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> MIZORAM</div>
+                <div class="img">
+                  <img src="./img/img-destinations/Toipui,_Tuipui_river_Mizoram_India.jpg" alt="">
+                </div>
+                <div class="content">
+                  <h2>Mizoram- Tour package
+                  </h2>
+                  <p class="subheading">Aizawl-Lunglei-Champhai-Tamdil Lake</p>
+                  <hr>
+                </div>
+                <div class="price-booking">
+                  <div class="price">
+                    <p>Starting Form:
+                    </p>
+                    <h2>₹ 36,500 <s id="cut">₹ 46,500</s>
+                    </h2>
+                    <p class="small">Per Person</p>
+                  </div>
+                  <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                </div>
+              </div>
+              <div class="tourpackage-card">
+                <div class="day">
+                  <p>3 DAYS/2 NIGHTS</p>
+                </div>
+                <div class="location"><i class="fa-solid fa-location-dot"></i> NAGALAND</div>
+                <div class="img">
+                  <img src="./img/img-destinations/mondakranta-saikia-Xqw7XgnvU3w-unsplash.jpg" alt="">
+                </div>
+                <div class="content">
+                  <h2>Nagaland- Tour package
+                  </h2>
+                  <p class="subheading">Kohima-Wokha-Mokokchung-Kiphire</p>
+                  <hr>
+                </div>
+                <div class="price-booking">
+                  <div class="price">
+                    <p>Starting Form:
+                    </p>
+                    <h2>₹ 44,500 <s id="cut">₹ 50,000</s>
+                    </h2>
+                    <p class="small">Per Person</p>
+                  </div>
+                  <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="tourpackage">
+              <div class="tourpackage-layout">
+                <div class="tourpackage-card">
+                  <div class="day"><p>3 DAYS/2 NIGHTS</p></div>
+                  <div class="location"><i class="fa-solid fa-location-dot"></i> NAGALAND</div>
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="content">
+                    <h2>Nagaland- Tour package
+                    </h2>
+                    <p class="subheading">Kohima-Dimapur-Tuensang</p>
+                    <hr>
+                  </div>
+                  <div class="price-booking">
+                    <div class="price">
+                      <p>Starting Form:
+                      </p>
+                      <h2>₹ 44,500 <s id="cut">₹ 50,000</s>
+                      </h2>
+                      <p class="small">Per Person</p>
+                    </div>
+                    <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                  </div>
+                </div>
+                <div class="tourpackage-card">
+                  <div class="day"><p>3 DAYS/2 NIGHTS</p></div>
+                  <div class="location"><i class="fa-solid fa-location-dot"></i> NAGALAND</div>
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="content">
+                    <h2>Nagaland- Tour package
+                    </h2>
+                    <p class="subheading">Kohima-Dimapur-Tuensang</p>
+                    <hr>
+                  </div>
+                  <div class="price-booking">
+                    <div class="price">
+                      <p>Starting Form:
+                      </p>
+                      <h2>₹ 44,500 <s id="cut">₹ 50,000</s>
+                      </h2>
+                      <p class="small">Per Person</p>
+                    </div>
+                    <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                  </div>
+                </div>
+                <div class="tourpackage-card">
+                  <div class="day"><p>3 DAYS/2 NIGHTS</p></div>
+                  <div class="location"><i class="fa-solid fa-location-dot"></i> NAGALAND</div>
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="content">
+                    <h2>Nagaland- Tour package
+                    </h2>
+                    <p class="subheading">Kohima-Dimapur-Tuensang</p>
+                    <hr>
+                  </div>
+                  <div class="price-booking">
+                    <div class="price">
+                      <p>Starting Form:
+                      </p>
+                      <h2>₹ 44,500 <s id="cut">₹ 50,000</s>
+                      </h2>
+                      <p class="small">Per Person</p>
+                    </div>
+                    <div class="button"><button>Book a Trip <i class="fa-solid fa-plane"></i></button></div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </section>
+    <!------------------end of tourpackage------------- -->
+
+    <!------------------start of services------------- -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="services-heading">
+            <h1>OUR SERVICES</h1>
+          </div>
+          <div class="services-card">
+            <div class="services-card-img">
+              <img src="./img/img-services/hotel.jpg" alt="hotel">
+            </div>
+            <div class="services-card-content">
+              <h2>HOTELS & RESORT
+              </h2>
+              <hr>
+              <p><b>1. Accommodation:</b> Providing comfortable and family-friendly lodging options, such as hotels,
+                resorts, or vacation rentals, with amenities like family suites, interconnected rooms, or kids'
+                clubs.<br><br>
+
+                <b>2. Transportation:</b> Arranging transportation services such as flights, trains, buses, or private
+                vehicles for transfers between destinations and activities.<br><br>
+
+                <b>3. Meals:</b> Offering meal plans that cater to different dietary requirements and preferences,
+                including buffet breakfasts, lunches, and dinners at family-friendly restaurants or within the
+                accommodation premises.<br><br>
+
+                <b>4. Sightseeing tours:</b> Organizing guided tours to popular family attractions, landmarks, theme
+                parks, museums, zoos, aquariums, botanical gardens, or historical sites suitable for all ages.<br><br>
+
+                <b>5. Entertainment:</b> Including tickets or access to family-friendly entertainment options such as
+                live shows, musicals, water parks, amusement parks, or cultural performances.<br><br>
+
+                <b>6. Luxury Hotels:</b> These establishments offer high-end amenities, personalized services, and often
+                unique experiences. They typically target affluent travelers.<br><br>
+              </p>
+            </div>
+          </div>
+          <div class="services-card">
+
+            <div class="services-card-content">
+              <h2>TRANSPORTATION
+              </h2>
+              <hr>
+              <p><b>1. Car Rental:</b> Facilitate the rental of cars, vans, or other vehicles for travelers to explore
+                their destinations independently..<br><br>
+
+                <b>2. Train Tickets:</b> Enable users to book train tickets for domestic and international rail travel,
+                including high-speed trains and scenic routes.<br><br>
+
+                <b>3. Airport Transfers:</b> Provide options for pre-booked transfers between airports and hotels or
+                other locations, ensuring a hassle-free journey for travelers.<br><br>
+
+                <b>4. Bus Tickets:</b> Allow travelers to book bus tickets for intercity or regional travel, including
+                options for luxury buses, sleeper coaches, and sightseeing tours.<br><br>
+
+                <b>5. Private Transfers:</b> Arrange private chauffeured transfers for individuals or groups, including
+                options for luxury vehicles, vans, or buses.<br><br>
+
+                <b>6. Road Transportation:</b> This includes vehicles such as cars, buses, trucks, motorcycles, and
+                bicycles, traveling on roads and highways. Road transportation is the most common mode for short to
+                medium-distance travel, offering flexibility and accessibility.<br><br>
+              </p>
+            </div>
+            <div class="services-card-img">
+              <img src="./img/img-services/travel.jpg" alt="TRANSPORTATION">
+            </div>
+          </div>
+          <div class="services-card">
+            <div class="services-card-img">
+              <img src="./img/img-services/family.jpg" alt="FAMILY">
+            </div>
+            <div class="services-card-content">
+              <h2>FOOD EXPERIENCES
+              </h2>
+              <hr>
+              <p><b>1. Local Cuisine Tasting Tour: </b> Explore the culinary delights of your destination with a local
+                cuisine tasting tour. Sample authentic dishes, street food, and traditional snacks from popular eateries
+                and hidden gems.<br><br>
+
+                <b>2. Street Food Safari: </b> Embark on a street food safari to discover the vibrant flavors of local
+                street vendors and markets. Taste a variety of street foods, snacks, and desserts while exploring the
+                bustling streets and alleys of your destination.<br><br>
+
+                <b>3. Farm-to-Table Dining Experience: </b> Experience farm-to-table dining with a tour that takes you
+                to organic farms, farmers' markets, and farm-to-table restaurants. Enjoy farm-fresh produce, artisanal
+                cheeses, and handcrafted dishes prepared by talented chefs.<br><br>
+
+                <b>4. Cultural Food Tour: </b> Immerse yourself in the culinary traditions of your destination with a
+                cultural food tour. Explore food markets, specialty shops, and ethnic neighborhoods while learning about
+                the history, culture, and significance of local cuisine.<br><br>
+
+                <b>5. Food Festival Experience:</b> Attend a food festival or culinary event showcasing the best of
+                local and international cuisine. Taste a wide range of dishes, attend cooking demonstrations, and enjoy
+                live music and entertainment at the festival grounds.<br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------end of services------------- -->
+
+    <!------------------start of about-us------------- -->
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="about-heading">
+            <h1>About Us</h1>
+            <!-- <p>Your Passport to Unforgettable Adventures.</p> -->
+          </div>
+          <div class="about-card">
+            <div class="about-gallery">
+              <div class="about-gallery-img">
+                <div class="item img-1"><img src="./img/img-about/chirag-saini-QrIUPFV_LZU-unsplash.jpg" alt=""></div>
+                <div class="item img-2"><img src="./img/img-about/mohamed-abdul-rasheed-CJjvxrwWWs0-unsplash.jpg"></div>
+                <div class="item img-3"><img src="./img/img-about/arindam-saha-PwzISwC2kLs-unsplash.jpg"></div>
+                <div class="item img-4"><img src="./img/img-about/juno-brahma-iq-waDEuv6U-unsplash.jpg" alt=""></div>
+                <div class="item img-5"><img src="./img/img-about/claire-kelly-OUcKtVbZBVI-unsplash.jpg" alt=""></div>
+                <div class="item img-5"><img src="./img/img-about/leeder-bose-TdV9RdLbO9g-unsplash.jpg" alt=""></div>
+              </div>
+            </div>
+            <div class="about-details">
+              <h1>Explore the Enchanting Charm of India's Seven Sisters with Tourize</h1><br>
+              <hr><br>
+              <p><b>Welcome to Tourize</b>, your gateway to the enchanting wonders of the Seven Sisters - the
+                northeastern states of India. At Tourize, we are passionate about showcasing the rich cultural heritage,
+                breathtaking landscapes, and diverse traditions of this captivating region.
+
+                With a mission to promote responsible and sustainable tourism, we strive to provide travelers with
+                authentic experiences while respecting the local communities and preserving the natural environment.
+
+                Our team consists of dedicated individuals who are deeply familiar with the hidden gems and
+                off-the-beaten-path destinations of the Seven Sisters. Whether you're an adventure seeker looking to
+                trek through lush forests, a food enthusiast eager to savor the unique flavors of northeastern cuisine,
+                or a culture aficionado keen to immerse yourself in traditional festivals and rituals, we have curated
+                the perfect itinerary for you.
+
+                At Tourize, we believe in creating memorable journeys that leave a positive impact on both travelers and
+                the destinations they visit. Join us as we embark on an unforgettable exploration of the Seven Sisters
+                and discover the beauty and charm of India's northeastern frontier.
+
+                <br><br><b style="font-size: larger; color: rgb(227, 108, 4);">Why Choose Tourize?</b><br>
+
+                <br><b>Expertise: </b>Our team comprises local experts who have a deep understanding of the region,
+                ensuring an authentic and enriching travel experience.
+
+                <br><br><b>Tailored Itineraries: </b>Whether you're a solo traveler, a couple, or a group, we customize
+                our itineraries to suit your preferences and interests, ensuring a personalized journey.
+
+                <br><br><b>Sustainability: </b>We are committed to promoting sustainable tourism practices that benefit
+                local communities and protect the natural environment.
+
+                <br><br><b>Safety and Comfort: </b>Your safety and comfort are our top priorities. From transportation
+                to accommodation, we ensure that every aspect of your journey is hassle-free and enjoyable.
+
+                Experience the magic of the Seven Sisters with Tourize and create memories that will last a lifetime.
+                Let us be your guide to the hidden treasures of India's northeastern paradise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------end of about-us------------- -->
+
+    <!------------------start of review------------- -->
+    <section class="review" id="review">
+      <div class="container">
+        <div class="row">
+          <div class="heading-rev">
+            <h2>Review</h2>
+            <p>Discover Your Next Adventure: Unforgettable Experiences Await with Tourize! </p>
+          </div>
+          <div class="rev-part2">
+            <div class="rev-card-layout">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="rev-card">
+                      <div class="rev-card-img">
+                        <img src="./img/img-review/1.jpg" alt="">
+                      </div>
+                      <div class="rev-card-content">
+                        <h4> Shristy Khatri </h4>
+                        <p class="subHeading">Banker</p>
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <div class="feedback">
+                          <P>Tourize made planning my vacation a breeze! The website's user-friendly interface and
+                            diverse range of tour options ensured. </P>
+                        </div>
+                        <div class="rev-button">
+                          <button type="submit">read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rev-card">
+                      <div class="rev-card-img">
+                        <img src="./img/img-review/2.jpg" alt="">
+                      </div>
+                      <div class="rev-card-content">
+                        <h4>Shubh Agarwal </h4>
+                        <p class="subHeading">Businessmen</p>
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="feedback">
+                          <P>Tourize offers something for every type of traveler. Whether you're into culture,
+                            adventure, or relaxation, you'll find the perfect tour on their website.</P>
+                        </div>
+                        <div class="rev-button">
+                          <button type="submit">read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rev-card">
+                      <div class="rev-card-img">
+                        <img src="./img/img-review/3.jpg" alt="">
+                      </div>
+                      <div class="rev-card-content">
+                        <h4>Aditi Roy</h4>
+                        <p class="subHeading">Fashion Model</p>
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <!-- <i class="fa fa-star"></i> -->
+                        </div>
+                        <div class="feedback">
+                          <P>Thanks to Tourize, I had the adventure of a lifetime! The quality of their tours and the
+                            ease of booking exceeded my expectations</P>
+                        </div>
+                        <div class="rev-button">
+                          <button type="submit">read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rev-card">
+                      <div class="rev-card-img">
+                        <img src="./img/img-review/4.jpg" alt="">
+                      </div>
+                      <div class="rev-card-content">
+                        <h4>Om Rathore</h4>
+                        <p class="subHeading">Doctor</p>
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="feedback">
+                          <P>ITourize is the best travel website out there! I've recommended it to all my friends and
+                            family.
+                          </P>
+                        </div>
+                        <div class="rev-button">
+                          <button type="submit">read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------end of review------------- -->
+
+    <!------------------start of contact-us------------- -->
+    <section class="contact-us" id="contact-us">
+      <div class="con-head">
+        <p>Contact Us</p>
+      </div>
+      <div class="contact">
+        <div class="con-form">
+          <div class="con-subhead">
+            <p>If you have any<br>Any <span style="color: red;">qurey,</span> Please <br>contact us.</p>
+          </div>
+          <div class="form">
+            <form action="/action.html">
+              <input type="text" placeholder="Full Name">
+              <input type="text" placeholder="Email"><br>
+              <input id="date" type="date" placeholder="Date"><br>
+              <input id="massage" type="text" placeholder="Massage"><br>
+              <input id="Submit" type="button" value="Submit">
+              <input id="Reset" type="button" value="Reset">
+            </form>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7360.424754838183!2d88.48054042980856!3d22.7203463024447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712082328372!5m2!1sen!2sin"
+            width="500" height="565" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <!------------------end of contact-us------------- -->
+  </main>
+  <footer class="footer" id="footer">
+    <!------------------start of footer1------------- -->
+    <div class="footer1">
+      <div class="logo">
+        <ul>
+          <li><img src="./logo/tourize-logo-zip-file-2/tourize-high-resolution-logo-transparent.png" alt=""></li>
+          <li>
+            <p>Want <span>to take</span><br>Tour Packages?</p>
+          </li>
+          <li><button type="submit">BOOK NOW</button></li>
+        </ul>
+      </div>
+      <div class="quicklinks">
+        <ul>
+          <li><a href="#about-us">About us</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
+          <li><a href="#tour-package">Tour Package</a></li>
+          <li><a href="">Tour Guide</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Article</a></li>
+        </ul>
+      </div>'
+      <div class="inquiry">
+        <ul>
+          <li id="bold"><i class="fa-solid fa-phone"></i> More Inquiry</li>
+          <li><a href="">+91-8700422000</a></li>
+          <li id="bold"><i class="fa-solid fa-paper-plane"></i> Send Mail</li>
+          <li><a href="">info@tourize.com</a></li>
+          <li id="bold"><i class="fa-solid fa-location-dot"></i> Address</li>
+          <li><a href="">Barasat,Champadali more,kol-124,W.B.</a></li>
+        </ul>
+      </div>
+      <div class="payment">
+        <ul>
+          <li>
+            <p>We Are Here <br>
+              <span>Beyond Travel Experts, we are friends eager <br> to support you in crafting an amazing travel <br>
+                package for blissful getaways. Join Us!</span>
+            </p>
+          </li>
+          <li>
+            <p>Payment Partner</p>
+          </li>
+          <li><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-stripe"></i><i
+              class="fa-brands fa-cc-paypal"></i><i class="fa-solid fa-credit-card"></i>
+        </ul>
+        </li>
+      </div>
+    </div>
+    <!------------------end of footer1------------- -->
+    <!------------------start of footer2------------- -->
+    <div class="footer2">
+      <div class="icon"><a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+      <div class="copywright">
+        <p>Copyright &copy;2024 All rights reserved www.tourize.com | This template is made with<i
+            class="fa-regular fa-heart"></i>by<class="Colorib"> <span>Manish Sharma</span></p>
+      </div>
+      <!-- start of pageup(go to home button) -->
+      <div class="pageup" id="home">
+        <a href=""><span><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+      <!-- end of pageup(go to home button) -->
+
+    </div>
+    <!------------------end of footer2------------- -->
+  </footer>
+
+
+
+  <!-- Initialize Swiper for BANNER & REVIEW -->
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
